@@ -35,7 +35,7 @@ set guioptions-=L
 
 " Colorscheme
 set background=dark
-colorscheme peaksea
+"colorscheme 
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -100,6 +100,14 @@ inoremap $3 {}<esc>i
 inoremap $4 {<esc>o}<esc>O
 inoremap $q ''<esc>i
 inoremap $e ""<esc>i
+
+
+inoremap <Up> <nop>
+inoremap <Down> <nop>
+inoremap <Left> <nop>
+inoremap <Right> <nop>
+inoremap <esc> <nop>
+inoremap jk <esc>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
